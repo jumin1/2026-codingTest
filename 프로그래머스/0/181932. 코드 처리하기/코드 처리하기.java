@@ -2,6 +2,7 @@ class Solution {
     public String solution(String code) {
         int mode = 0;
         String ret = "";
+        
         for(int idx = 0; idx < code.length(); idx++) {
             char c = code.charAt(idx);
             if(mode == 0) {
