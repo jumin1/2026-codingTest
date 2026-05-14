@@ -1,4 +1,3 @@
-import java.util.*;
 class Solution {
     public long solution(long n) {
         double x = Math.sqrt(n);
