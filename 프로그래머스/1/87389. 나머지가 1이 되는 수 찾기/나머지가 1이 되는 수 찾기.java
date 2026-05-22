@@ -1,14 +1,11 @@
 class Solution {
     public int solution(int n) {
-        int answer = 0;
-        int count = 0;
-        for(int i = 1; i < n; i++) {
-            if(n % i == 1) {
-                count += 1;
-                if(count == 1) {
-                    answer = i;
-                }
+        int answer = 1;
+        while(true) {
+            if(n % answer == 1) {
+                break;
             }
+            answer += 1;
         }
         return answer;
     }
