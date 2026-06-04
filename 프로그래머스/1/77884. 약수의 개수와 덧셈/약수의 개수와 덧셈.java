@@ -1,8 +1,8 @@
 class Solution {
     public int solution(int left, int right) {
         int answer = 0;
-        int count = 0;
         for(int i = left; i <= right; i++) {
+            int count = 0;
             int idx = i;
             for(int j = 1; j <= idx; j++) {
                 if(i % j == 0){
@@ -14,7 +14,6 @@ class Solution {
             } else {
                 answer -= i;
             }
-            count = 0;
         }
         return answer;
     }
