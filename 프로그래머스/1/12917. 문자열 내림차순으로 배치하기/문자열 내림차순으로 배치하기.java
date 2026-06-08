@@ -1,4 +1,3 @@
-import java.util.*;
 class Solution {
     public String solution(String s) {
         char[] arr = s.toCharArray();
@@ -11,6 +10,6 @@ class Solution {
         }
     }
 }
-        return new String(arr);
+        return String.valueOf(arr);
     }
 }
