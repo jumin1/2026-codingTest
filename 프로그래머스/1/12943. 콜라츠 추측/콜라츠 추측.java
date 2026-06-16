@@ -1,6 +1,5 @@
 class Solution {
     public int solution(int num) {
-        if(num == 1) return 0;
         long n = num;
         int i = 0;
         while(n != 1 && i <= 500) {
